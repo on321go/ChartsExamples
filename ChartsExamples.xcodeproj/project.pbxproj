@@ -7,18 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		615345332BADE905007ED0DB /* NavigationChartViewNoGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615345322BADE905007ED0DB /* NavigationChartViewNoGroup.swift */; };
+		615345352BAE2FBD007ED0DB /* AreaChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615345342BAE2FBD007ED0DB /* AreaChart.swift */; };
+		615345372BAE3157007ED0DB /* MiniAreaChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615345362BAE3157007ED0DB /* MiniAreaChart.swift */; };
+		615345392BB21D89007ED0DB /* LargeNotGrouped.swift in Sources */ = {isa = PBXBuildFile; fileRef = 615345382BB21D89007ED0DB /* LargeNotGrouped.swift */; };
+		6153453B2BB22199007ED0DB /* ChartsDataFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153453A2BB22199007ED0DB /* ChartsDataFile.swift */; };
+		6153453D2BB22202007ED0DB /* HeatMapChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6153453C2BB22202007ED0DB /* HeatMapChart.swift */; };
 		61FA16CB2BA4FC3C00B39EB1 /* ChartsExamplesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16CA2BA4FC3C00B39EB1 /* ChartsExamplesApp.swift */; };
 		61FA16CD2BA4FC3C00B39EB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16CC2BA4FC3C00B39EB1 /* ContentView.swift */; };
 		61FA16CF2BA4FC4400B39EB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61FA16CE2BA4FC4400B39EB1 /* Assets.xcassets */; };
 		61FA16D22BA4FC4400B39EB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61FA16D12BA4FC4400B39EB1 /* Preview Assets.xcassets */; };
+		61FA16D92BA8F14700B39EB1 /* Charts2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16D82BA8F14700B39EB1 /* Charts2.swift */; };
+		61FA16DB2BAC88AD00B39EB1 /* BarChartVerticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16DA2BAC88AD00B39EB1 /* BarChartVerticle.swift */; };
+		61FA16DD2BAC8E5900B39EB1 /* BarChartHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16DC2BAC8E5900B39EB1 /* BarChartHorizontal.swift */; };
+		61FA16DF2BACAC1B00B39EB1 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16DE2BACAC1B00B39EB1 /* LineChart.swift */; };
+		61FA16E12BACB2FD00B39EB1 /* OldChartCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16E02BACB2FD00B39EB1 /* OldChartCode.swift */; };
+		61FA16E32BACBB8C00B39EB1 /* GroupedCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16E22BACBB8C00B39EB1 /* GroupedCharts.swift */; };
+		61FA16E52BADC5C800B39EB1 /* MiniBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16E42BADC5C800B39EB1 /* MiniBarChartView.swift */; };
+		61FA16E72BADC83100B39EB1 /* MiniLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16E62BADC83100B39EB1 /* MiniLineChart.swift */; };
+		61FA16E92BADCB6900B39EB1 /* NavigationChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16E82BADCB6900B39EB1 /* NavigationChartView.swift */; };
+		61FA16EB2BADCD6A00B39EB1 /* MiniBarChartHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FA16EA2BADCD6A00B39EB1 /* MiniBarChartHorizontal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		615345322BADE905007ED0DB /* NavigationChartViewNoGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationChartViewNoGroup.swift; sourceTree = "<group>"; };
+		615345342BAE2FBD007ED0DB /* AreaChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaChart.swift; sourceTree = "<group>"; };
+		615345362BAE3157007ED0DB /* MiniAreaChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniAreaChart.swift; sourceTree = "<group>"; };
+		615345382BB21D89007ED0DB /* LargeNotGrouped.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeNotGrouped.swift; sourceTree = "<group>"; };
+		6153453A2BB22199007ED0DB /* ChartsDataFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDataFile.swift; sourceTree = "<group>"; };
+		6153453C2BB22202007ED0DB /* HeatMapChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapChart.swift; sourceTree = "<group>"; };
 		61FA16C72BA4FC3C00B39EB1 /* ChartsExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartsExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61FA16CA2BA4FC3C00B39EB1 /* ChartsExamplesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsExamplesApp.swift; sourceTree = "<group>"; };
 		61FA16CC2BA4FC3C00B39EB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		61FA16CE2BA4FC4400B39EB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61FA16D12BA4FC4400B39EB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61FA16D82BA8F14700B39EB1 /* Charts2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charts2.swift; sourceTree = "<group>"; };
+		61FA16DA2BAC88AD00B39EB1 /* BarChartVerticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartVerticle.swift; sourceTree = "<group>"; };
+		61FA16DC2BAC8E5900B39EB1 /* BarChartHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartHorizontal.swift; sourceTree = "<group>"; };
+		61FA16DE2BACAC1B00B39EB1 /* LineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		61FA16E02BACB2FD00B39EB1 /* OldChartCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldChartCode.swift; sourceTree = "<group>"; };
+		61FA16E22BACBB8C00B39EB1 /* GroupedCharts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupedCharts.swift; sourceTree = "<group>"; };
+		61FA16E42BADC5C800B39EB1 /* MiniBarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBarChartView.swift; sourceTree = "<group>"; };
+		61FA16E62BADC83100B39EB1 /* MiniLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniLineChart.swift; sourceTree = "<group>"; };
+		61FA16E82BADCB6900B39EB1 /* NavigationChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationChartView.swift; sourceTree = "<group>"; };
+		61FA16EA2BADCD6A00B39EB1 /* MiniBarChartHorizontal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniBarChartHorizontal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +85,22 @@
 			children = (
 				61FA16CA2BA4FC3C00B39EB1 /* ChartsExamplesApp.swift */,
 				61FA16CC2BA4FC3C00B39EB1 /* ContentView.swift */,
+				6153453A2BB22199007ED0DB /* ChartsDataFile.swift */,
+				61FA16DA2BAC88AD00B39EB1 /* BarChartVerticle.swift */,
+				61FA16E42BADC5C800B39EB1 /* MiniBarChartView.swift */,
+				61FA16DC2BAC8E5900B39EB1 /* BarChartHorizontal.swift */,
+				61FA16EA2BADCD6A00B39EB1 /* MiniBarChartHorizontal.swift */,
+				615345342BAE2FBD007ED0DB /* AreaChart.swift */,
+				615345362BAE3157007ED0DB /* MiniAreaChart.swift */,
+				61FA16DE2BACAC1B00B39EB1 /* LineChart.swift */,
+				61FA16E62BADC83100B39EB1 /* MiniLineChart.swift */,
+				6153453C2BB22202007ED0DB /* HeatMapChart.swift */,
+				61FA16E82BADCB6900B39EB1 /* NavigationChartView.swift */,
+				615345322BADE905007ED0DB /* NavigationChartViewNoGroup.swift */,
+				61FA16E02BACB2FD00B39EB1 /* OldChartCode.swift */,
+				61FA16E22BACBB8C00B39EB1 /* GroupedCharts.swift */,
+				61FA16D82BA8F14700B39EB1 /* Charts2.swift */,
+				615345382BB21D89007ED0DB /* LargeNotGrouped.swift */,
 				61FA16CE2BA4FC4400B39EB1 /* Assets.xcassets */,
 				61FA16D02BA4FC4400B39EB1 /* Preview Content */,
 			);
@@ -137,8 +185,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61FA16E52BADC5C800B39EB1 /* MiniBarChartView.swift in Sources */,
+				61FA16EB2BADCD6A00B39EB1 /* MiniBarChartHorizontal.swift in Sources */,
+				6153453B2BB22199007ED0DB /* ChartsDataFile.swift in Sources */,
+				615345392BB21D89007ED0DB /* LargeNotGrouped.swift in Sources */,
+				61FA16D92BA8F14700B39EB1 /* Charts2.swift in Sources */,
+				615345352BAE2FBD007ED0DB /* AreaChart.swift in Sources */,
+				61FA16E32BACBB8C00B39EB1 /* GroupedCharts.swift in Sources */,
+				615345332BADE905007ED0DB /* NavigationChartViewNoGroup.swift in Sources */,
+				61FA16E92BADCB6900B39EB1 /* NavigationChartView.swift in Sources */,
+				61FA16DD2BAC8E5900B39EB1 /* BarChartHorizontal.swift in Sources */,
+				61FA16DF2BACAC1B00B39EB1 /* LineChart.swift in Sources */,
 				61FA16CD2BA4FC3C00B39EB1 /* ContentView.swift in Sources */,
+				61FA16DB2BAC88AD00B39EB1 /* BarChartVerticle.swift in Sources */,
+				6153453D2BB22202007ED0DB /* HeatMapChart.swift in Sources */,
+				61FA16E72BADC83100B39EB1 /* MiniLineChart.swift in Sources */,
 				61FA16CB2BA4FC3C00B39EB1 /* ChartsExamplesApp.swift in Sources */,
+				61FA16E12BACB2FD00B39EB1 /* OldChartCode.swift in Sources */,
+				615345372BAE3157007ED0DB /* MiniAreaChart.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +318,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +344,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +374,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -6,18 +6,45 @@
 //
 
 import SwiftUI
+import Charts
+
+
 
 struct ContentView: View {
+    @State private var selectedTab = "plus"
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        TabView(selection: $selectedTab)  {
+               
+            
+            NavigationChartViewNoGroup()
+                .tabItem {
+                      Image(systemName: "person.fill.badge.plus")
+                      Text("Plus")
+                    }
+                .tag("plus")
+            
+            NavigationChartView()
+                .tabItem {
+                    Image(systemName: "rectangle.portrait.and.arrow.right.fill")
+                    Text("Group Plus")
+                }
+                .tag("groupPlus")
+                 
+            OldChartCode()
+                .tabItem {
+                  Image(systemName: "folder")
+                  Text("Other")
+                }
+                .tag("other")
         }
-        .padding()
+        .navigationViewStyle(StackNavigationViewStyle())
+       
     }
+    
 }
+
 
 #Preview {
     ContentView()
